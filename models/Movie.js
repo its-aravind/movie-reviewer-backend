@@ -13,7 +13,7 @@ const movieSchema = new mongoose.Schema({
   },
   averageRating: {
     type: Number,
-    default: 0,
+    default: 1,
   },
   reviews: [{
     type: mongoose.Schema.Types.ObjectId,
